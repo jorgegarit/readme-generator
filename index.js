@@ -63,6 +63,32 @@ const questions = [
                 console.log("Please provide description on how to use your application")
             }
         }
+    },
+
+    //  Licensed Used Section
+    {
+        type: 'list',
+        name: 'license',
+        message: "Please select a license that best works for your project.",
+        choices: [
+            {
+                name: 'MIT',
+                value: '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)'
+            },
+            {
+                name: 'Apache',
+                value: '[![License: Apache](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'
+            },
+            {
+                name: 'GPL',
+                value: '[![License: GPL](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)'
+            },
+            {
+                name: 'none',
+                value: 'none'
+            }
+
+        ]
     }
 
 ];
