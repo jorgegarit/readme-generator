@@ -51,6 +51,20 @@ const questions = [
         }    
     },
 
+    // How to Use Section
+    {
+        type: 'input',
+        name: 'usage',
+        message: 'How do you use this application?',
+        validate: inputUsage => {
+            if (inputUsage) {
+                return true;
+            } else {
+                console.log("Please provide description on how to use your application")
+            }
+        }
+    }
+
 ];
 
 // TODO: Create a function to write README file
