@@ -65,7 +65,7 @@ const questions = [
         }
     },
 
-    //  Licensed Used Section
+    //  License Section
     {
         type: 'list',
         name: 'license',
@@ -89,6 +89,14 @@ const questions = [
             }
 
         ]
+    },
+
+    // Languages Used Section
+    {
+        type: 'checkbox',
+        name: 'languages',
+        message: 'What was used to build this project? (Check all that apply)',
+        choices: ['JavaScript', 'HTML', 'CSS', 'ES6', 'jQuery', 'Bootstrap', 'Node.js']
     }
 
 ];
