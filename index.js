@@ -97,8 +97,37 @@ const questions = [
         name: 'languages',
         message: 'What was used to build this project? (Check all that apply)',
         choices: ['JavaScript', 'HTML', 'CSS', 'ES6', 'jQuery', 'Bootstrap', 'Node.js']
-    }
+    },
 
+    // GitHub Username 
+    {
+        type: 'input',
+        name: 'userName',
+        message: 'What is your Github username?',
+        validate: inputUserName => {
+            if (inputUserName) {
+                return true;
+            } else {
+                console.log("Please input your GitHub username to continue.")
+                return false;
+            }
+        }
+    },
+
+    // Email Section
+    {
+        type: 'input',
+        name: 'email',
+        message: 'What is a good email for users to reach you at?',
+        validate: inputEmail => {
+            if (inputEmail) {
+                return true;
+            } else {
+                console.log("Please provide a valid email.")
+                return false;
+            }
+        }
+    }
 ];
 
 // TODO: Create a function to write README file
