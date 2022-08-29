@@ -65,7 +65,7 @@ const questions = [
         }
     },
 
-    //  License Section
+    //  License Section, will be using the this to pull license information rather than generateMarkdown.js
     {
         type: 'list',
         name: 'license',
@@ -143,6 +143,7 @@ function writeToFile(fileName, data) {
 
 // TODO: Create a function to initialize app
 function init() {}
+
 
 // Function call to initialize app
 init();
