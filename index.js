@@ -30,7 +30,7 @@ const questions = [
             if (inputDescription) {
                 return true;
             } else {
-                console.log("Please add a description of your project.")
+                console.log("Please provide a description.")
                 return false;
             }
         }
@@ -45,7 +45,7 @@ const questions = [
             if (inputInstall) {
                 return true;
             } else {
-                console.log("Please provide the necessary steps tp install your application.")
+                console.log("Please provide the necessary steps.")
                 return false;
             }
         }    
@@ -60,7 +60,7 @@ const questions = [
             if (inputUsage) {
                 return true;
             } else {
-                console.log("Please provide description on how to use your application")
+                console.log("Please provide a description on how to use your application")
             }
         }
     },
@@ -142,7 +142,13 @@ function writeToFile(fileName, data) {
 }
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer.prompt(questions)
+    .then(function(userInputs) {
+        console.log(userInputs)
+        writeToFile('./dist/README.md', generateMardown(userInputs));
+    })
+}
 
 
 // Function call to initialize app
