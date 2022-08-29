@@ -6,4 +6,4 @@ THis porject will use the terminal and node.js in order to geenrate a simple Rea
 ## Video of Application
 The video below has a quick tutorial on how to use the readme generator. 
 
-[](../../../Downloads/Untitled_%20Aug%2028,%202022%208_46%20PM.webm)
+https://watch.screencastify.com/v/2zQfjb4KyWEDoOBxOjqn
