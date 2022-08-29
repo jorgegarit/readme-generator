@@ -1,4 +1,4 @@
-# Test
+# ReadMe Generator
   ## Table of Contents
   - [Description](#description)
   - [Installation](#install)
@@ -8,16 +8,16 @@
   - [Contact](#contact-section)
 
   ## Description
-  Test
+  Description of ReadMe Generator
   ## Installation
-  Test
+  Github
   ## Usage
-  Test
+  you use it 
   ## License
   [![License: Apache](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
   ## Languages
-  JavaScript,HTML,CSS,ES6
+  JavaScript,ES6,Node.js
   ## Contact
-  - Github: [Test](https://github.com/Test)
-  - Email: [Test](mailto:user@email.com)
+  - Github: [jorgegarit](https://github.com/jorgegarit)
+  - Email: [jorgegarit@gmail.com](mailto:user@email.com)
 
