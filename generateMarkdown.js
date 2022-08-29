@@ -1,6 +1,6 @@
 // This J.S will contain the skeleton 
 
-function generateMarkdown(data) {
+const generateMarkdown = data => {
   return `
     # ${data.title}
     ## Table of Contents
@@ -20,11 +20,11 @@ function generateMarkdown(data) {
     ## License
     ${data.license}
     ## Languages
-    ${data.laguages}
+    ${data.languages}
     ## Contact
     - Github: [${data.userName}](https://github.com/${data.userName})
     - Email: [${data.email}](mailto:user@email.com)
   `;
-}
+};
 
 module.exports = generateMarkdown;
